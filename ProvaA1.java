@@ -33,8 +33,7 @@ public class ProvaA1 {
         double consumo120 = km120 / 18.1;
         double consumo140 = km140 / 14.5;
 
-        double velocidadeMediaPonderada = (60 * km60 + 80 * km80 + 100 * km100 + 120 * km120 + 140 * km140)
-                / (km60 + km80 + km100 + km120 + km140);
+        double velocidadeMediaPonderada = (60 * km60 + 80 * km80 + 100 * km100 + 120 * km120 + 140 * km140) / (km60 + km80 + km100 + km120 + km140);
 
         double totalCombustivel = consumo60 + consumo80 + consumo100 + consumo120 + consumo140;
         double valorTotal = totalCombustivel * valorCombustivel;
